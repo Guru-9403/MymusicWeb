@@ -266,4 +266,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 *Built with ♥ using pure HTML · CSS · JavaScript · Web Audio API*
 
 </div>
-![Uploading equalizer.svg…]()
+
