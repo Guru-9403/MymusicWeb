@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120">
+  <rect width="800" height="120" fill="#0d0d0d" rx="8"/>
+
+  <!-- Frequency label -->
+  <text x="20" y="18" font-family="Courier New, monospace" font-size="9" fill="#333" letter-spacing="3">FREQUENCY SPECTRUM</text>
+
+  <!-- EQ Bars - 48 bars across -->
+  <style>
+    .b { transform-origin: bottom; animation: eq linear infinite alternate; }
+    @keyframes eq { from { transform: scaleY(0.08); } to { transform: scaleY(1); } }
+  </style>
+
+  <!-- Bar definitions: x, maxH, color, duration, delay -->
+  <!-- Bass zone (green) -->
+  <rect class="b" x="20"  y="30" width="8" height="80" rx="2" fill="#3a7a4a" style="animation-duration:0.42s;animation-delay:0.00s"/>
+  <rect class="b" x="32"  y="30" width="8" height="80" rx="2" fill="#3d8050" style="animation-duration:0.55s;animation-delay:0.06s"/>
+  <rect class="b" x="44"  y="30" width="8" height="80" rx="2" fill="#428856" style="animation-duration:0.38s;animation-delay:0.12s"/>
+  <rect class="b" x="56"  y="30" width="8" height="80" rx="2" fill="#479060" style="animation-duration:0.61s;animation-delay:0.03s"/>
+  <rect class="b" x="68"  y="30" width="8" height="80" rx="2" fill="#4c9868" style="animation-duration:0.44s;animation-delay:0.18s"/>
+  <rect class="b" x="80"  y="30" width="8" height="80" rx="2" fill="#52a070" style="animation-duration:0.50s;animation-delay:0.09s"/>
+  <rect class="b" x="92"  y="30" width="8" height="80" rx="2" fill="#57a878" style="animation-duration:0.36s;animation-delay:0.15s"/>
+  <rect class="b" x="104" y="30" width="8" height="80" rx="2" fill="#5ab080" style="animation-duration:0.66s;animation-delay:0.04s"/>
+
+  <!-- Low-mid zone (cyan) -->
+  <rect class="b" x="118" y="30" width="8" height="80" rx="2" fill="#3a8898" style="animation-duration:0.48s;animation-delay:0.07s"/>
+  <rect class="b" x="130" y="30" width="8" height="80" rx="2" fill="#3d90a0" style="animation-duration:0.40s;animation-delay:0.20s"/>
+  <rect class="b" x="142" y="30" width="8" height="80" rx="2" fill="#4298aa" style="animation-duration:0.57s;animation-delay:0.02s"/>
+  <rect class="b" x="154" y="30" width="8" height="80" rx="2" fill="#48a0b2" style="animation-duration:0.45s;animation-delay:0.14s"/>
+  <rect class="b" x="166" y="30" width="8" height="80" rx="2" fill="#4ea8ba" style="animation-duration:0.63s;animation-delay:0.08s"/>
+  <rect class="b" x="178" y="30" width="8" height="80" rx="2" fill="#54b0c2" style="animation-duration:0.35s;animation-delay:0.22s"/>
+  <rect class="b" x="190" y="30" width="8" height="80" rx="2" fill="#5ab8ca" style="animation-duration:0.52s;animation-delay:0.11s"/>
+  <rect class="b" x="202" y="30" width="8" height="80" rx="2" fill="#60b8c8" style="animation-duration:0.41s;animation-delay:0.17s"/>
+
+  <!-- Mid zone (blue-purple) -->
+  <rect class="b" x="216" y="30" width="8" height="80" rx="2" fill="#5060a8" style="animation-duration:0.58s;animation-delay:0.05s"/>
+  <rect class="b" x="228" y="30" width="8" height="80" rx="2" fill="#5568b0" style="animation-duration:0.43s;animation-delay:0.19s"/>
+  <rect class="b" x="240" y="30" width="8" height="80" rx="2" fill="#5a70b8" style="animation-duration:0.67s;animation-delay:0.01s"/>
+  <rect class="b" x="252" y="30" width="8" height="80" rx="2" fill="#6078c0" style="animation-duration:0.37s;animation-delay:0.13s"/>
+  <rect class="b" x="264" y="30" width="8" height="80" rx="2" fill="#6880c8" style="animation-duration:0.54s;animation-delay:0.24s"/>
+  <rect class="b" x="276" y="30" width="8" height="80" rx="2" fill="#7088d0" style="animation-duration:0.46s;animation-delay:0.06s"/>
+  <rect class="b" x="288" y="30" width="8" height="80" rx="2" fill="#7890d8" style="animation-duration:0.60s;animation-delay:0.16s"/>
+  <rect class="b" x="300" y="30" width="8" height="80" rx="2" fill="#8098e0" style="animation-duration:0.39s;animation-delay:0.10s"/>
+
+  <!-- Upper-mid zone (purple) -->
+  <rect class="b" x="314" y="30" width="8" height="80" rx="2" fill="#8858b8" style="animation-duration:0.49s;animation-delay:0.21s"/>
+  <rect class="b" x="326" y="30" width="8" height="80" rx="2" fill="#9060c0" style="animation-duration:0.56s;animation-delay:0.03s"/>
+  <rect class="b" x="338" y="30" width="8" height="80" rx="2" fill="#9868c8" style="animation-duration:0.42s;animation-delay:0.15s"/>
+  <rect class="b" x="350" y="30" width="8" height="80" rx="2" fill="#a070d0" style="animation-duration:0.65s;animation-delay:0.08s"/>
+  <rect class="b" x="362" y="30" width="8" height="80" rx="2" fill="#a878d8" style="animation-duration:0.36s;animation-delay:0.18s"/>
+  <rect class="b" x="374" y="30" width="8" height="80" rx="2" fill="#b080e0" style="animation-duration:0.53s;animation-delay:0.12s"/>
+  <rect class="b" x="386" y="30" width="8" height="80" rx="2" fill="#b888e4" style="animation-duration:0.44s;animation-delay:0.25s"/>
+  <rect class="b" x="398" y="30" width="8" height="80" rx="2" fill="#c090e8" style="animation-duration:0.59s;animation-delay:0.07s"/>
+
+  <!-- High-mid zone (pink-magenta) -->
+  <rect class="b" x="412" y="30" width="8" height="80" rx="2" fill="#b85890" style="animation-duration:0.41s;animation-delay:0.20s"/>
+  <rect class="b" x="424" y="30" width="8" height="80" rx="2" fill="#c06098" style="animation-duration:0.62s;animation-delay:0.04s"/>
+  <rect class="b" x="436" y="30" width="8" height="80" rx="2" fill="#c868a0" style="animation-duration:0.35s;animation-delay:0.16s"/>
+  <rect class="b" x="448" y="30" width="8" height="80" rx="2" fill="#d070a8" style="animation-duration:0.50s;animation-delay:0.09s"/>
+  <rect class="b" x="460" y="30" width="8" height="80" rx="2" fill="#d878b0" style="animation-duration:0.57s;animation-delay:0.22s"/>
+  <rect class="b" x="472" y="30" width="8" height="80" rx="2" fill="#e080b8" style="animation-duration:0.43s;animation-delay:0.13s"/>
+  <rect class="b" x="484" y="30" width="8" height="80" rx="2" fill="#e888c0" style="animation-duration:0.66s;animation-delay:0.01s"/>
+  <rect class="b" x="496" y="30" width="8" height="80" rx="2" fill="#f090c8" style="animation-duration:0.38s;animation-delay:0.19s"/>
+
+  <!-- Treble zone (orange-amber) -->
+  <rect class="b" x="510" y="30" width="8" height="80" rx="2" fill="#b87030" style="animation-duration:0.52s;animation-delay:0.05s"/>
+  <rect class="b" x="522" y="30" width="8" height="80" rx="2" fill="#c07838" style="animation-duration:0.45s;animation-delay:0.17s"/>
+  <rect class="b" x="534" y="30" width="8" height="80" rx="2" fill="#c88040" style="animation-duration:0.60s;animation-delay:0.11s"/>
+  <rect class="b" x="546" y="30" width="8" height="80" rx="2" fill="#d08848" style="animation-duration:0.37s;animation-delay:0.23s"/>
+  <rect class="b" x="558" y="30" width="8" height="80" rx="2" fill="#d89050" style="animation-duration:0.54s;animation-delay:0.06s"/>
+  <rect class="b" x="570" y="30" width="8" height="80" rx="2" fill="#e09858" style="animation-duration:0.40s;animation-delay:0.14s"/>
+  <rect class="b" x="582" y="30" width="8" height="80" rx="2" fill="#e8a060" style="animation-duration:0.63s;animation-delay:0.08s"/>
+  <rect class="b" x="594" y="30" width="8" height="80" rx="2" fill="#f0a868" style="animation-duration:0.47s;animation-delay:0.20s"/>
+
+  <!-- High treble zone (red) -->
+  <rect class="b" x="608" y="30" width="8" height="80" rx="2" fill="#b84040" style="animation-duration:0.55s;animation-delay:0.02s"/>
+  <rect class="b" x="620" y="30" width="8" height="80" rx="2" fill="#c04848" style="animation-duration:0.39s;animation-delay:0.18s"/>
+  <rect class="b" x="632" y="30" width="8" height="80" rx="2" fill="#c85050" style="animation-duration:0.64s;animation-delay:0.10s"/>
+  <rect class="b" x="644" y="30" width="8" height="80" rx="2" fill="#d05858" style="animation-duration:0.36s;animation-delay:0.24s"/>
+  <rect class="b" x="656" y="30" width="8" height="80" rx="2" fill="#d86060" style="animation-duration:0.51s;animation-delay:0.07s"/>
+  <rect class="b" x="668" y="30" width="8" height="80" rx="2" fill="#e06868" style="animation-duration:0.43s;animation-delay:0.15s"/>
+  <rect class="b" x="680" y="30" width="8" height="80" rx="2" fill="#e87070" style="animation-duration:0.58s;animation-delay:0.03s"/>
+  <rect class="b" x="692" y="30" width="8" height="80" rx="2" fill="#f07878" style="animation-duration:0.46s;animation-delay:0.21s"/>
+
+  <!-- Floor line -->
+  <line x1="16" y1="110" x2="714" y2="110" stroke="#1e1e1e" stroke-width="1"/>
+
+  <!-- Freq labels -->
+  <text x="20"  y="118" font-family="Courier New" font-size="8" fill="#2a2a2a">20Hz</text>
+  <text x="118" y="118" font-family="Courier New" font-size="8" fill="#2a2a2a">200Hz</text>
+  <text x="216" y="118" font-family="Courier New" font-size="8" fill="#2a2a2a">1kHz</text>
+  <text x="314" y="118" font-family="Courier New" font-size="8" fill="#2a2a2a">3kHz</text>
+  <text x="412" y="118" font-family="Courier New" font-size="8" fill="#2a2a2a">6kHz</text>
+  <text x="510" y="118" font-family="Courier New" font-size="8" fill="#2a2a2a">12kHz</text>
+  <text x="608" y="118" font-family="Courier New" font-size="8" fill="#2a2a2a">20kHz</text>
+
+  <!-- Live dot -->
+  <circle cx="760" cy="18" r="4" fill="#5c9e5c">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="770" y="22" font-family="Courier New" font-size="9" fill="#3a6a3a" letter-spacing="2">LIVE</text>
+</svg>
