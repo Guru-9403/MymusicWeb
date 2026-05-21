@@ -5,6 +5,9 @@
 # 🎛️ MY MUSIC CONSOLE
 
 <img src="equalizer.svg" width="100%" alt="Music Equalizer"/>
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Guru-9403.Guru-9403&left_color=black&right_color=black"/>
+</p>
 
 ### A Browser-Based Music Player & Audio Workstation
 
