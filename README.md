@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="equalizer.svg" width="100%" alt="Music Equalizer"/>
+
 
 # 🎛️ MY MUSIC CONSOLE
+
+<img src="equalizer.svg" width="100%" alt="Music Equalizer"/>
 
 ### A Browser-Based Music Player & Audio Workstation
 
