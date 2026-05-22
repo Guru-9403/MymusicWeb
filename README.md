@@ -1,7 +1,7 @@
 <div align="center">
 
 ### 🎵 Live Demo  
-🚀 [Live Demo](https://mymusic9403.netlify.app)
+🚀 [Live Demo](https://musicplayer9403.netlify.app/)
 
 # 🎛️ MY MUSIC CONSOLE
 
