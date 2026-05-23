@@ -3,7 +3,7 @@
 ### 🎵 Live Demo  
 🚀 [Live Demo](https://musicplayer9403.netlify.app/)
 
-# 🎛️ MY MUSIC CONSOLE
+# 🎛️ MUSIC PLAYER 
 
 <img src="equalizer.svg" width="100%" alt="Music Equalizer"/>
 
@@ -98,7 +98,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  MY MUSIC CONSOLE          ● PLAYING         23:41:05   │
+│  MUSIC PLAYER         ● PLAYING         23:41:05   │
 ├───────────────┬─────────────────────────┬───────────────┤
 │  LEFT PANEL   │     CENTER PANEL        │  RIGHT PANEL  │
 │               │                         │               │
