@@ -1,6 +1,4 @@
 <div align="center">
-
-### 🎵 Live Demo  
 🚀 [Live Demo](https://musicplayer9403.netlify.app/)
 
 # 🎛️ MUSIC PLAYER 
@@ -91,67 +89,7 @@
 </td>
 </tr>
 </table>
-
 ---
-
-## 🖼️ Interface Layout
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  MUSIC PLAYER         ● PLAYING         23:41:05   │
-├───────────────┬─────────────────────────┬───────────────┤
-│  LEFT PANEL   │     CENTER PANEL        │  RIGHT PANEL  │
-│               │                         │               │
-│  ↑ Drop Track │   ╭─────────────╮       │  PLAYLIST     │
-│               │   │  Circular   │       │  ─────────    │
-│  [Track Name] │   │  Frequency  │       │  01 Track 1   │
-│               │   │  Visualizer │       │  02 Track 2   │
-│  EQ KNOBS     │   │   (Canvas)  │       │  03 Track 3   │
-│  BASS TREBLE  │   ╰─────────────╯       │               │
-│  BOOST        │                         │  FX BUTTONS   │
-│               │  ████████████████████   │  REVERB DELAY │
-│  VU METERS    │  ◀◀ 10s  ▶ PLAY  STOP  │  FLANGER DIST │
-│  BASS ████    │                         │               │
-│  MID  ██████  │  VOL ████  PITCH ──●──  │  CUE / LOOP   │
-│  HIGH ████    │                         │  BPM / GAIN   │
-└───────────────┴─────────────────────────┴───────────────┘
-```
-
----
-
-## 🚀 Getting Started
-
-No build step. No npm. No dependencies. Just open and play.
-
-### Option 1 — Open directly
-
-```bash
-# Clone the repo
-git clone https://github.com/your-username/my-music-console.git
-
-# Open in browser
-open index.html
-```
-
-### Option 2 — Serve locally (recommended for file:// audio restrictions)
-
-```bash
-# Python
-python -m http.server 8080
-
-# Node.js
-npx serve .
-
-# Then visit
-open http://localhost:8080
-```
-
-### Option 3 — Deploy to GitHub Pages
-
-1. Go to **Settings → Pages**
-2. Set source branch to `main`, folder to `/ (root)`
-3. Visit `https://your-username.github.io/my-music-console/`
-
 ---
 
 ## 🎧 How to Use
@@ -204,15 +142,6 @@ Web Audio API Signal Chain
          │
          ▼
   [AudioDestination]  +  [Canvas Visualizer]
-```
-
----
-
-## 📁 Project Structure
-
-```
-my-music-console/
-└── index.html          # Everything — HTML + CSS + JS, single file (~1300 lines)
 ```
 
 ---
