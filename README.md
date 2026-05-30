@@ -160,18 +160,6 @@ Beat detection drives **ripple ring** spawning and **sparkle particle** emission
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the repository
-2. Create your branch: `git checkout -b feature/your-feature`
-3. Commit changes: `git commit -m 'Add your feature'`
-4. Push: `git push origin feature/your-feature`
-5. Open a Pull Request
-
----
-
 ## 👨‍💻 Developer
 
 <div align="center">
